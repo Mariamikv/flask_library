@@ -1,15 +1,9 @@
-# წიგნების პორტალი
+# Library Management System
 
-## შესავალი
-მარტივი ფუნქციონირების წიგნების პორტალი, სადაც შესაძლებელია წიგნებისა და მომხმარებლების დამატება. ასევე არასასურველი წიგნის წაშლა ბაზიდან. 
+## Description
+This is Portal Books, where you can add books and custumers. Also you can delete any books you want. For this simple project i'm using ```Flask``` (Web Framework for Python), ```SQLAlchemy```(Python SQL toolkit and Object Relational Mapper).  
 
-
-## აპლიკაციის სრულყოფილი მუშაობისთვის გაუშვით ქვემოთ მოცემული კომანდი
-```
- pip install -r requirements.txt
-```
-
-## აპლიკაციის გასაშვებად გამოიყენეთ
-```
-python app.py run
-```
+## Setup
+- Run ```pip install -r requirements.txt``` to install dependencies
+- Run ```python app.py run```
+- Navigate to ```http://127.0.0.1:5000/``` in your browser
